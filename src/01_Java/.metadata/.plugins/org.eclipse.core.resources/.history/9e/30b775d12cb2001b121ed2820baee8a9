@@ -1,0 +1,7 @@
+package com.lec.condition;
+// 컴퓨터가 발생한 점수(난수)의 학점 출력
+public class Ex07_switchHakjum {
+	public static void main(String[] args) {
+		System.out.println(Math.random()); 
+	}
+}

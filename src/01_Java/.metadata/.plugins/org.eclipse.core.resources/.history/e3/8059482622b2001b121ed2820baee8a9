@@ -1,0 +1,31 @@
+package com.lec.condition;
+import java.util.Scanner;
+public class Ex04_ifExample {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("국어점수를 입력 : ");
+		int kor = scanner.nextInt();
+		System.out.print("영어점수를 입력 : ");
+		int eng = scanner.nextInt();
+		System.out.print("수학점수를 입력 : ");
+		int math = scanner.nextInt();
+		double avg = (kor+eng+math)/3.;
+		if(kor>=avg){
+			System.out.printf("국어는 평균(%.1f)보다 %.1f점차이로 많습니다\n", 
+					avg, kor-avg);
+		} else if(kor<avg){
+			System.out.printf("국어는 평균(%.1f)보다 %.f점 차이로 낮습니다\n", avg);
+		}
+		if(eng>=avg){
+			System.out.printf("영어점수가 평균점수(%.1f)이상입니다\n", avg);
+		}else {
+			System.out.printf("영어점수가 평균점수(%.1f)이하입니다\n", avg);
+		}
+		if(math>=avg){
+			System.out.printf("수학점수가 평균점수(%.1f)이상입니다\n", avg);
+		}else {
+			System.out.printf("수학점수가 평균점수(%.1f)이하입니다\n", avg);
+		}
+		scanner.close();
+	}
+}

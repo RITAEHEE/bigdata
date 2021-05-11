@@ -1,0 +1,11 @@
+package com.lec.condition;
+// 컴퓨터가 발생한 점수(난수)의 학점 출력
+public class Ex07_switchHakjum {
+	public static void main(String[] args) {
+		/* 0<= Math.random() <1
+		 * 0<= Math.random()*101 < 101
+		 * (int)(Math.random()*101) : 0~100사이의 정수 난수
+		 */
+		System.out.println((int)(Math.random()*101));
+	}
+}
