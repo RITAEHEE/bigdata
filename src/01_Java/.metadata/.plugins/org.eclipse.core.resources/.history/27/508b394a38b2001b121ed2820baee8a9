@@ -1,4 +1,5 @@
 package com.lec.loop;
+
 public class Quiz02_for {
 	public static void main(String[] args) {
 		int sum = 0;
