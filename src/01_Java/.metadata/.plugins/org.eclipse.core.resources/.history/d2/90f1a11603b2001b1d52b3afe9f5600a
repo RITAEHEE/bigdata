@@ -1,0 +1,7 @@
+package com.lec.ex;
+// 할당(대입)연산자 : =, +=, *=, /=, -=, %=
+public class Ex06 {
+	public static void main(String[] args) {
+		int n1 += 10;
+	}
+}
