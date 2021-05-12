@@ -1,0 +1,10 @@
+package com.lec.ex;
+public class Arithmetic {
+	public int sum(int from, int to) {
+		int result = 0;//누적해서 return 할 변수
+		for(int i=from ; i<=to ; i++) {
+			result += i;
+		}
+		return result;
+	}
+}

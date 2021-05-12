@@ -1,5 +1,5 @@
 package com.lec.ex;
-// yisy0703@naver.com
+
 public class TodayEx2 {
 	public static void main(String[] args) {
 		int[][] arr = { {5, 5, 5, 5, 5}, 
