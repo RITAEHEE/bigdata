@@ -1,0 +1,14 @@
+package com.lec.ex;
+
+public class TodayEx3 {
+	public static void main(String[] args) {
+		int money = 2680;
+		int[] coinUnit = {500,100,50,10};
+		for(int coin : coinUnit) {
+			System.out.println(coin+"원짜리 동전 " +
+					(money/coin)+"개 ");
+			money %= coin; //money = money%coin;
+		}
+		
+	}
+}
