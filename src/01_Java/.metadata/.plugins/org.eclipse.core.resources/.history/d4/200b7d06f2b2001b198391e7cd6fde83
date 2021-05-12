@@ -10,6 +10,6 @@ public class TodayEx1 {
 		for(int temp : arr) {
 			tot += temp;
 		}
-		System.out.println("TOTAL : "+tot);
+		System.out.println("배열에 담긴 값들의 합은 "+tot);
 	}
 }
