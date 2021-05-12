@@ -1,6 +1,6 @@
 package com.lec.ex;
 
-public class TodayEx3 {
+public class TodayEx {
 	public static void main(String[] args) {
 		int[] array = {76,45,34,89,100,50,90,92};
 		int sum=0, avg=0,max=0,min=999;
