@@ -1,0 +1,40 @@
+package com.lec.ex1;
+
+import java.util.Scanner;
+public class Test {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int numFirst = 0;
+		int numSecond = 0;
+		int result = 0;
+		
+		System.out.println("구구단 몇단을 계산할까요?");
+		do {
+			numFirst = scanner.nextInt();
+			if(numFirst > 1 && numFirst < 10) break;
+			System.out.println("2~9 사이의 수를 입력하세요");
+			
+		}while(true);
+		
+		System.out.println("곱할 수를 입력하세요");
+		do {
+			numSecond = scanner.nextInt();
+			if(numSecond > 0 && numSecond < 10) break;
+			System.out.println("2~9 사이의 수를 입력하세요");
+			
+		}while(true);
+		
+		result = mul(numFirst, numSecond);
+		
+		System.out.println(numFirst + "*" + numSecond + "=" + result );
+		}
+
+	
+	private static int mul(int numFirst, int numSecond) {
+		int result = 0;
+		result = numFirst * numSecond;
+		return result;
+		
+			
+		}
+	}
