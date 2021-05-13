@@ -4,8 +4,8 @@ import com.lect.ex2_human.*;
 // Man, Woman ÀÖ´Â °÷ : com.lect.ex2_human
 public class HumanMain {
 	public static void main(String[] args) {
-//		Man man = new Man();
+		Man man = new Man();
 		Woman woman = new Woman();
-		Man man2 = new Man(100);
+//		Man man2 = new Man(100);
 	}
 }
