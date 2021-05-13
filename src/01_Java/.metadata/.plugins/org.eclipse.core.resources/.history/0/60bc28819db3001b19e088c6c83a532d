@@ -1,0 +1,20 @@
+package com.lec.car;
+
+public class Car {
+	String color; // 속성, 데이터
+	int cc;
+	String brand;
+	int speed;
+	void drive() {
+		speed = 60;
+		System.out.println("운전한다. 지금 속도 "+speed);
+	}
+	void park() {
+		speed = 0;
+		System.out.println("주차한다. 지금 속도 "+speed);
+	}
+	void race() {
+		speed = 120;
+		System.out.println("레이싱한다. 지금 속도 " + speed);
+	}
+}

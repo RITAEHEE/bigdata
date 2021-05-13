@@ -1,0 +1,11 @@
+package com.lec.car;
+public class CarMain {
+	public static void main(String[] args) {
+		Car myPorsche = new Car();
+		myPorsche.color = "»¡°­";
+		System.out.println(myPorsche.color);
+		myPorsche.drive();
+		myPorsche.park();
+		myPorsche.race();
+	}
+}
